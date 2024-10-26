@@ -1,32 +1,21 @@
 package com.example
 
-import com.example.plugins.*
+import com.example.plugins.makeServer_And_Returned_A_ResponseText
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import io.ktor.server.routing.*
 
 fun main() {
     embeddedServer(factory = Netty, port = 8888, host = "127.0.0.1") {
-    /* without install */
-    // withoutInstall()
 
-    /* with install */
-    // install(plugin = Routing) {
-    // withInstall()
-    // }
+    /* make server and return responseText */
+        makeServer_And_Return_A_ResponseText()
 
     }.start(wait = true)
 }
 
-  // here i don't install the plugin "Routing",  why?
-    // because i define extension func. as an "Application" so it's not important to install
-/* fun Application.withoutInstall() {
-    configureWithoutInstallRouting()
-} */
-
-  // here i did install the plugin "Routing",  why?
-    // because i define extension func. as an "Routing" so it's important to install
-/* fun Routing.withInstall() {
-      configureWithInstallRouting()
-} */
+  // here I make a server and return text with response
+      // whatever install || don't install "Routing"
+fun Application.makeServer_And_Return_A_ResponseText() {
+      makeServer_And_Returned_A_ResponseText()
+}
