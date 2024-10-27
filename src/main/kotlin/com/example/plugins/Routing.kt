@@ -5,10 +5,10 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
 
-fun Application.makeServer_And_Returned_A_ResponseText() {
+fun Application.newPath_Or_NewModule() {
     routing {
-        get("/") {
-            call.respondText(text = "Hello Ktor")
+        get("/contact") {
+            call.respondText(text = "Hello Ktor, this is the page a contact")
         }
     }
 }

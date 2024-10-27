@@ -1,6 +1,6 @@
 package com.example
 
-import com.example.plugins.makeServer_And_Returned_A_ResponseText
+import com.example.plugins.newPath_Or_NewModule
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
@@ -8,14 +8,13 @@ import io.ktor.server.netty.*
 fun main() {
     embeddedServer(factory = Netty, port = 8888, host = "127.0.0.1") {
 
-    /* make server and return responseText */
-        makeServer_And_Return_A_ResponseText()
+    /* make server but by "new path || new page || new module"  */
+        newPathOrNewPage()
 
     }.start(wait = true)
 }
 
-  // here I make a server and return text with response
-      // whatever install || don't install "Routing"
-fun Application.makeServer_And_Return_A_ResponseText() {
-      makeServer_And_Returned_A_ResponseText()
+  // here I make (a new path || a new page || a new module)
+fun Application.newPathOrNewPage() {
+      newPath_Or_NewModule()
 }
