@@ -1,8 +1,20 @@
-@file:Suppress("UNUSED_EXPRESSION")
-
 package com.example
 
+import com.example.plugins.getProductPageSelectedOfPath
+import io.ktor.server.application.*
+import io.ktor.server.engine.*
+import io.ktor.server.netty.*
+
 fun main() {
-    "بسم الله نبدأ مشروع كامل بالمتطلبات اللازمة لفهم ktor بطريقة مُبسطة"
+    embeddedServer(factory = Netty, port = 8888, host = "127.0.0.1") {
+
+        getProductPageSelected()
+
+    }.start(wait = true)
 }
 
+
+   // here I Get Product Page Selected Of Path
+fun Application.getProductPageSelected() {
+    getProductPageSelectedOfPath()
+}
