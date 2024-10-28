@@ -18,7 +18,7 @@ import io.ktor.server.routing.*
     }
 } */
 
-fun Application.sendRequestFromPostmanWithQueryParameters() {
+/* fun Application.sendRequestFromPostmanWithQueryParameters() {
     routing {
         get("/") {
             println(message = "Header Name Of Accept:- ${call.request.header(name = "Accept")}")
@@ -28,5 +28,5 @@ fun Application.sendRequestFromPostmanWithQueryParameters() {
             println(message = "Query Parameter Name Of Country:- ${call.request.queryParameters.get(name = "country")}")
         }
     }
-}
+} */
 

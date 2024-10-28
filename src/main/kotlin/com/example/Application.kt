@@ -15,12 +15,12 @@ fun main() {
     }.start(wait = true)
 }
 
-   // here I send request from postman without none query parameters
+   // here I send request from postman without none query parameters (بالفعل موجودين)
  /* fun Application.sendRequestFromPostmanWithoutNoneQuery() {
       sendRequestFromPostmanWithoutNoneQueryParameters()
 } */
 
-   // here I send request from postman with query parameters
+   // here I send request from postman with query parameters (بالفعل موجودين)
  /* fun Application.sendRequestFromPostmanWithQuery() {
      sendRequestFromPostmanWithQueryParameters()
 } */
