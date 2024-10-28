@@ -1,6 +1,6 @@
 package com.example
 
-import com.example.plugins.getProductPageSelectedOfPath
+import com.example.plugins.sendDataOrRequestByBody
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
@@ -8,13 +8,15 @@ import io.ktor.server.netty.*
 fun main() {
     embeddedServer(factory = Netty, port = 8888, host = "127.0.0.1") {
 
-        getProductPageSelected()
+        sendDataOrRequestByBodyFromPostman()
 
     }.start(wait = true)
 }
 
 
-   // here I Get Product Page Selected Of Path
-fun Application.getProductPageSelected() {
-    getProductPageSelectedOfPath()
+   // here I send "data || request" by body from postman (choose Body then raw then choose JSON instead of Text)
+      // the data used by the body must be used inside { }
+         // ex:- { "email" : "mustafamansour774@gmail.com", "country" : "Egypt", ..... etc }
+fun Application.sendDataOrRequestByBodyFromPostman() {
+       sendDataOrRequestByBody()
 }

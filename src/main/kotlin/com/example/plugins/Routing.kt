@@ -6,11 +6,10 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
 
-fun Application.getProductPageSelectedOfPath() {
+fun Application.sendDataOrRequestByBody() {
     routing {
-        get("/products/{page}") {
-            val pageNumber = call.parameters["page"]
-            call.respond(message = "Page of Product = $pageNumber")
+        post(path = "/login") {
+            call.respond(message = "Login is done")
         }
     }
 }
