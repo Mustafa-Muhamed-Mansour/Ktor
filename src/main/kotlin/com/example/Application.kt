@@ -8,7 +8,7 @@ import io.ktor.server.netty.*
 fun main() {
     embeddedServer(factory = Netty, port = 8888, host = "127.0.0.1") {
 
-        sendDataOrRequestByBodyFromPostman()
+       // sendDataOrRequestByBodyFromPostman()
 
     }.start(wait = true)
 }
@@ -17,6 +17,6 @@ fun main() {
    // here I send "data || request" by body from postman (choose Body then raw then choose JSON instead of Text)
       // the data used by the body must be used inside { }
          // ex:- { "email" : "mustafamansour774@gmail.com", "country" : "Egypt", ..... etc }
-fun Application.sendDataOrRequestByBodyFromPostman() {
+/* fun Application.sendDataOrRequestByBodyFromPostman() {
        sendDataOrRequestByBody()
-}
+} */
