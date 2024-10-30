@@ -8,14 +8,6 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
 
-//fun Application.sendDataOrRequestByBody() {
-//    routing {
-//        post(path = "/login") {
-//            call.respond(message = "Login is done")
-//        }
-//    }
-//}
-
 fun Application.receiveDataOrRequest() {
     routing {
         post(path = "/login") {
