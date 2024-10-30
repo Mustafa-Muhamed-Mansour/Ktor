@@ -8,12 +8,12 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
 
-fun Application.receiveDataOrRequest() {
+fun Application.getRequestAboutJson() {
     routing {
-        post(path = "/login") {
-            // here i receive "data || request" from type data class < > and i selected type a status
-            val userModel = call.receive<UserModel>()
-            call.respondText(text = "E-mail = ${userModel.email}", status = HttpStatusCode.Found)
+        get(path = "/") {
+            // here i get "request" from type data class < >
+            val userModel = UserModel(name = "Mostafa Mohamed Mansour", phone = "01556044553", gender = "Male")
+            call.respond(message = userModel)
         }
     }
 }
