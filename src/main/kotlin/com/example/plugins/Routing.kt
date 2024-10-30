@@ -1,19 +1,16 @@
 package com.example.plugins
 
-import com.example.entity.UserModel
-import io.ktor.http.*
 import io.ktor.server.application.*
-import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
 
-fun Application.getRequestAboutJson() {
+fun Application.addNewHeadersAndCookies() {
     routing {
-        get(path = "/") {
-            // here i get "request" from type data class < >
-            val userModel = UserModel(name = "Mostafa Mohamed Mansour", phone = "01556044553", gender = "Male")
-            call.respond(message = userModel)
+        get(path = "/addNewHeadersAndCookies") {
+            call.response.headers.append(name = "New-Header", value = "This is a new header")
+            call.response.cookies.append(name = "New-Cookies", value = "This is a new cookies")
+            call.respond(message = "Done, the header and cookies were added")
         }
     }
 }
