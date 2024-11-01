@@ -7,31 +7,32 @@ import io.ktor.server.routing.*
 import java.io.File
 
 
-/* fun Application.downloadAnyThingWithoutShowingMe() {
+/* fun Application.openAnyThingWithoutShowingMe() {
     routing {
-        get(path = "/downloadWithoutShowingMe") {
+        get(path = "/openWithoutShowingMe") {
             call.response.header(
                 name = HttpHeaders.ContentDisposition,
-                value = ContentDisposition.Attachment.withParameter(
+                value = ContentDisposition.Inline.withParameter(
                     key = ContentDisposition.Parameters.FileName,
-                    value = "download The Thing.jpg"
+                    value = "open The Thing.jpg"
                 ).toString()
             )
 
-            call.respond(message = "done, downloaded the thing ......")
+            call.respond(message = "done, the thing opened ......")
         }
     }
 } */
 
-/* fun Application.downloadAnyThingWithShowingMe() {
+
+/* fun Application.openAnyThingWithShowingMe() {
     routing {
-        get(path = "/downloadWithShowingMe") {
+        get(path = "/openWithShowingMe") {
             val file = File("files/cat.png")
             call.response.header(
                 name = HttpHeaders.ContentDisposition,
-                value = ContentDisposition.Attachment.withParameter(
+                value = ContentDisposition.Inline.withParameter(
                     key = ContentDisposition.Parameters.FileName,
-                    value = "download The Thing.jpg"
+                    value = "open The Thing.jpg"
                 ).toString()
             )
 

@@ -7,22 +7,22 @@ fun main() {
     embeddedServer(factory = Netty, port = 8888, host = "127.0.0.1") {
 
         /* without showing me */
-        // downloadAnThingWithoutShowing()
+        // openAnyThingWithoutShowing()
 
         /* with showing me */
-        // downloadAnThingWithShowing()
+        // openAnyThingWithShowing()
 
     }.start(wait = true)
 }
 
 
-   // here I get download "file or image or anyThing" from the server without showing me
-/* fun Application.downloadAnThingWithoutShowing() {
-       downloadAnyThingWithoutShowingMe()
+   // here I open "file or image or anyThing" on the browser without showing me
+/* fun Application.openAnyThingWithoutShowing() {
+       openAnyThingWithoutShowingMe()
 } */
 
-   // here I get download "file or image or anyThing" from the server with showing me
-/* fun Application.downloadAnThingWithShowing() {
-       downloadAnyThingWithShowingMe()
+   // here I open "file or image or anyThing" on the browser with showing me
+/* fun Application.openAnyThingWithShowing() {
+       openAnyThingWithShowingMe()
 } */
 
