@@ -8,6 +8,7 @@ fun main() {
     embeddedServer(factory = Netty, port = 8888, host = "127.0.0.1") {
     }
 
+
  /* here I connection ktor with database " SQL " after installing program " MySQL Workbench "  */
     // url = localhost.port " 127.0.0.1:3306 " ---> in the first page in program MySQL when a open the project
     // driver = this library follow تبع the driver can to connect mySQL
