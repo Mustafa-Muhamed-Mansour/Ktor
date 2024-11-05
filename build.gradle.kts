@@ -27,6 +27,8 @@ dependencies {
     implementation(libs.ktor.server.config.yaml)
     implementation(libs.kotlin.serialization)
     implementation(libs.content.negotiation)
+    implementation(libs.ktorm)
+    implementation(libs.sql.connection)
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlin.test.junit)
 }

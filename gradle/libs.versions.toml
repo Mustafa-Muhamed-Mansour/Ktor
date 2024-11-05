@@ -2,6 +2,8 @@
 ktor-version = "2.2.3"
 kotlin-version = "2.0.21"
 logback-version = "1.4.14"
+ktorm-version = "3.4.1"
+sql-connector-version = "8.0.29"
 
 
 [libraries]
@@ -13,6 +15,9 @@ ktor-server-test-host = { module = "io.ktor:ktor-server-test-host-jvm", version.
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin-version" }
 kotlin-serialization = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor-version" }
 content-negotiation  = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "ktor-version" }
+ktorm  = { module = "org.ktorm:ktorm-core", version.ref = "ktorm-version" }
+sql-connection  = { module = "mysql:mysql-connector-java", version.ref = "sql-connector-version" }
+
 
 
 
