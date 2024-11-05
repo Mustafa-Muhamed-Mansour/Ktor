@@ -8,7 +8,6 @@ import org.ktorm.database.Database
 
 fun main() {
     embeddedServer(factory = Netty, port = 8888, host = "127.0.0.1") {
-        connectionKtorWithDatabase()
     }
 
  /* here I connection ktor with database " SQL " after installing program " MySQL Workbench "  */
@@ -26,7 +25,4 @@ fun main() {
 
 
 
-fun Application.connectionKtorWithDatabase() {
-       connectionWithDatabase()
-}
 
