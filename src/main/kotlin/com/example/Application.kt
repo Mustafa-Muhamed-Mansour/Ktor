@@ -24,11 +24,10 @@ fun main() {
         )
 
 
-      // here i insert value by using ktorm (i meaning يعني kotlin) by object الموجود in package entity and he "ProductModel"
+      // here i delete value selected by using ktorm (i meaning يعني kotlin) by object الموجود in package entity and he "ProductModel"
             // and everyThing showing in sql
-        database.insert(table = ProductModel) {
-            set(column = it.product , value = "Welcome to Ktor")
-            set(column = it.product, value = "Welcome to ktorm")
+        database.delete(table = ProductModel) {
+            it.id eq 2
         }
 
 
