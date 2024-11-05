@@ -1,7 +1,5 @@
 package com.example
 
-import com.example.plugins.connectionWithDatabase
-import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 import org.ktorm.database.Database
