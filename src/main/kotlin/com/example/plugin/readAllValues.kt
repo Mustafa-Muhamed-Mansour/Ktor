@@ -2,10 +2,9 @@ package com.example.plugin
 
 import com.example.entity.ProductModel
 import org.ktorm.database.Database
-import org.ktorm.dsl.from
-import org.ktorm.dsl.select
+import org.ktorm.dsl.deleteAll
 
-fun readAllValues() {
+fun deleteAllValues() {
     /* here I connection ktor with database " SQL " after installing program " MySQL Workbench "  */
       // url = localhost.port " 127.0.0.1:3306 " ---> in the first page in program MySQL when a open the project
       // driver = this library follow تبع the driver can to connect mySQL
@@ -18,8 +17,6 @@ fun readAllValues() {
         password = "password for you"
     )
 
-    val readAllValue = database.from(table = ProductModel).select()
-    for (raws in readAllValue) {
-        println(message = "ID = ${raws[ProductModel.id]} ....... Product = ${raws[ProductModel.product]}")
-    }
+
+    database.deleteAll(table = ProductModel)
 }
