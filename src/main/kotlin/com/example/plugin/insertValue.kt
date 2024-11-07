@@ -2,10 +2,12 @@ package com.example.plugin
 
 import com.example.entity.ProductModel
 import org.ktorm.database.Database
+import org.ktorm.dsl.eq
 import org.ktorm.dsl.insert
+import org.ktorm.dsl.update
 
 
-fun insertValue() {
+fun updateValue() {
     /* here I connection ktor with database " SQL " after installing program " MySQL Workbench "  */
       // url = localhost.port " 127.0.0.1:3306 " ---> in the first page in program MySQL when a open the project
       // driver = this library follow تبع the driver can to connect mySQL
@@ -18,8 +20,8 @@ fun insertValue() {
         password = "password for you"
     )
 
-    database.insert(table = ProductModel) {
-//        set(column = it.product , value = "Welcome to Ktor")
-        set(column = it.product, value = "Welcome to ktorm")
+    database.update(table = ProductModel) {
+        set(column = it.product, value = "Welcome to Mostafa")
+        where { it.id eq 5 }
     }
 }
