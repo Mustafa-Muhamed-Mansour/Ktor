@@ -3,7 +3,6 @@ package com.example.plugin
 import com.example.entity.ProductModel
 import org.ktorm.database.Database
 import org.ktorm.dsl.eq
-import org.ktorm.dsl.insert
 import org.ktorm.dsl.update
 
 
