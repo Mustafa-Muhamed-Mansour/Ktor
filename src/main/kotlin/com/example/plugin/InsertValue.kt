@@ -19,7 +19,11 @@ fun insertValue() {
     )
 
     database.insert(table = ProductModel) {
-//        set(column = it.product , value = "Welcome to Ktor")
+        set(column = it.product, value = "Welcome to ktor")
+    }
+
+    database.insert(table = ProductModel) {
         set(column = it.product, value = "Welcome to ktorm")
     }
+
 }
