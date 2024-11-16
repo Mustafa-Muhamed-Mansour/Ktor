@@ -18,8 +18,8 @@ fun main() {
         }
 
         // here i call function "configurationRouting" الذي inside it another function
-                                       // "productRoutes" here i meaning the function يعني
-                                          // receive data from database as a json
+                                       // "insertDataFromPostRequest" here i meaning the function يعني
+                                          // insert data from post request "Postman" and receive data as a json
         configurationRouting()
 
     }.start(wait = true)
