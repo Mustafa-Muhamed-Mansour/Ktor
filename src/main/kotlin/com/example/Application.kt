@@ -18,8 +18,9 @@ fun main() {
         }
 
         // here i call function "configurationRouting" الذي inside it another function
-                                       // "insertDataFromPostRequest" here i meaning the function يعني
-                                          // insert data from post request "Postman" and receive data as a json
+                                  // "getDataSelectedOfPathByUsingIdAndShowAsAJson" here i meaning the function يعني
+                                      // get data selected of path by using id from post request "Postman"
+                                                          // and show me data as a json
         configurationRouting()
 
     }.start(wait = true)
