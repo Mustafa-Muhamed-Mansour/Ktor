@@ -18,12 +18,13 @@ fun Application.getDataSelectedOfPathByUsingIdAndShowAsAJson() {
     val db = DatabaseConnection.database
 
     getDataSelectedByUsingId(database = db)
+    updateDataSelectedByUsingId(database = db)
 
 }
 
 fun Application.getDataSelectedByUsingId(database: Database) {
     routing {
-        get(path = "/getDataFromPostman/{id}") {
+        get(path = "/updateDataFromPostman/{id}") {
 
             val id = call.parameters["id"]?.toInt() ?: 0
 
@@ -40,12 +41,50 @@ fun Application.getDataSelectedByUsingId(database: Database) {
             if (products.isNullOrEmpty()) {
                 call.respond(
                     status = HttpStatusCode.NotFound,
-                    message = ProductResponse(productData = "sorry, not found product in id = $id", typeOfProduct = false)
+                    message = ProductResponse(
+                        productData = "sorry, not found product in id = $id",
+                        typeOfProduct = false
+                    )
                 )
             } else {
                 call.respond(
                     status = HttpStatusCode.OK,
                     message = ProductResponse(productData = products, typeOfProduct = true)
+                )
+            }
+        }
+    }
+}
+
+fun Application.updateDataSelectedByUsingId(database: Database) {
+    routing {
+        put("updateDataFromPostman/{id}") {
+            val id = call.parameters["id"]?.toInt() ?: 0
+            val updateProduct = call.receive<ProductModelForInsertData>()
+
+            val rowEffect = database
+                .update(ProductModelForDatabase) {
+                    set(column = it.product, value = updateProduct.product)
+                    where {
+                        it.id eq id
+                    }
+                }
+
+            if (rowEffect == 1) {
+                call.respond(
+                    status = HttpStatusCode.OK,
+                    message = ProductResponse(
+                        productData = "yes, product has been updated, that contain id = $id",
+                        typeOfProduct = true
+                    )
+                )
+            } else {
+                call.respond(
+                    status = HttpStatusCode.BadRequest,
+                    message = ProductResponse(
+                        productData = "sorry, not found this product because not found id",
+                        typeOfProduct = false
+                    )
                 )
             }
         }
