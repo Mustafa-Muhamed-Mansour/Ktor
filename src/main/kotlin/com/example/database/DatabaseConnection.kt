@@ -12,6 +12,6 @@ object DatabaseConnection {
         url = "jdbc:mysql://127.0.0.1:3306/products",
         driver = "com.mysql.cj.jdbc.Driver",
         user = "root",
-        password = "MostAfA01556044553%"
+        password = "password for you"
     )
 }
