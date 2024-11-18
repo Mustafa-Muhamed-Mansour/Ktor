@@ -82,7 +82,7 @@ fun Application.updateDataSelectedByUsingId(database: Database) {
                 call.respond(
                     status = HttpStatusCode.BadRequest,
                     message = ProductResponse(
-                        productData = "sorry, not found this product because not found id",
+                        productData = "sorry, not found this product because not found id = $id",
                         typeOfProduct = false
                     )
                 )
