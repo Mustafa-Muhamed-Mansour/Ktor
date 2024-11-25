@@ -91,6 +91,8 @@ Here I talk about everything in the things that I know about "Ktor", I hope in t
 # 🧑🏾‍💻Build with
 
 * [MySQL Workbench](https://www.mysql.com/products/workbench/) - MySQL Workbench provides data modeling and SQL development.
+* [Ktor](https://ktor.io/) - Create asynchronous client and server applications.
+* [Ktorm](https://www.ktorm.org/) - It provides strong-typed and flexible SQL DSL and convenient sequence APIs to reduce our duplicated effort on database operations.
 
 
 
