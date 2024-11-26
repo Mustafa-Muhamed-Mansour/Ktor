@@ -108,16 +108,16 @@ Here I talk about everything in the things that I know about "Ktor", I hope in t
 <img src = "https://github.com/user-attachments/assets/2ecbf8e6-61a1-4b69-86a6-78d71dd988f8" width = "1340" height = "700">
 
 ## insert data and get data from post request ( i meaning postman )
-<img src = "https://github.com/user-attachments/assets/51acfd5c-fc34-402e-b700-b4905ad5de04" width = "2170" height = "1140">
+<img src = "https://github.com/user-attachments/assets/51acfd5c-fc34-402e-b700-b4905ad5de04" width = "2175" height = "1144">
 
 ## get data selected of path by using id from post request (i meaning postman) and show me as a json
-<img src = "https://github.com/user-attachments/assets/93df1129-1b82-4737-8d27-7f6ad6b5755c" width = "2170" height = "1140">
+<img src = "https://github.com/user-attachments/assets/93df1129-1b82-4737-8d27-7f6ad6b5755c" width = "2175" height = "1144">
 
 ## update data selected of path by using id from post request (i meaning postman)
-<img src = "https://github.com/user-attachments/assets/f37945bf-3160-4b8c-a535-180b429c0f19" width = "2170" height = "1140">
+<img src = "https://github.com/user-attachments/assets/f37945bf-3160-4b8c-a535-180b429c0f19" width = "2175" height = "1144">
 
 ## delete data selected of path by using id from post request (i meaning postman)
-<img src = "https://github.com/user-attachments/assets/b7337d96-6b3c-4a42-9631-b23c363397c3" width = "2170" height = "1140">
+<img src = "https://github.com/user-attachments/assets/b7337d96-6b3c-4a42-9631-b23c363397c3" width = "2175" height = "1144">
 
 
 
