@@ -143,27 +143,27 @@ Here I talk about everything in the things that I know about "Ktor", I hope in t
 <img src = "https://github.com/user-attachments/assets/c8005b18-c680-4154-ba3e-90fb74be28c8" width = "1380" height = "650">
 
    ### (4)
-<img src = "https://github.com/user-attachments/assets/20855e60-1ae3-4016-a098-c5b439129c77" width = "1380" height = "650">
+<img src = "https://github.com/user-attachments/assets/20855e60-1ae3-4016-a098-c5b439129c77" width = "900" height = "150">
 
    ### (5)
-<img src = "https://github.com/user-attachments/assets/ce693651-7633-475e-ae5a-2bd9e880dbda" width = "1380" height = "650">
+<img src = "https://github.com/user-attachments/assets/ce693651-7633-475e-ae5a-2bd9e880dbda" width = "530" height = "560">
 
    ### (6)
-<img src = "https://github.com/user-attachments/assets/77496abc-2f8d-41dd-a4f0-094ddf9d2a36" width = "1380" height = "650">
+<img src = "https://github.com/user-attachments/assets/77496abc-2f8d-41dd-a4f0-094ddf9d2a36" width = "590" height = "760">
 
    ### (7)
-<img src = "https://github.com/user-attachments/assets/3502582a-cb82-434f-9a3b-ebd736445bed" width = "1380" height = "650">
+<img src = "https://github.com/user-attachments/assets/3502582a-cb82-434f-9a3b-ebd736445bed" width = "580" height = "640">
 
    ### (8)
-<img src = "https://github.com/user-attachments/assets/7f4f529a-f095-4f44-90ff-c783c78cde2f" width = "1380" height = "650">
+<img src = "https://github.com/user-attachments/assets/7f4f529a-f095-4f44-90ff-c783c78cde2f" width = "1470" height = "750">
 
    ### (9)
-<img src = "https://github.com/user-attachments/assets/db3b4058-f072-41d0-82c0-318bf07e9254" width = "1380" height = "650">
+<img src = "https://github.com/user-attachments/assets/db3b4058-f072-41d0-82c0-318bf07e9254" width = "860" height = "70">
 
    ### (10)
-<img src = "https://github.com/user-attachments/assets/8df2b26d-68fd-4da6-8809-d726974ddb2b" width = "1380" height = "650">
+<img src = "https://github.com/user-attachments/assets/8df2b26d-68fd-4da6-8809-d726974ddb2b" width = "315" height = "240">
 
    ### (11)
-<img src = "https://github.com/user-attachments/assets/9299aa31-45c4-41a9-8fb3-81f48d6775f5" width = "1380" height = "650">
+<img src = "https://github.com/user-attachments/assets/9299aa31-45c4-41a9-8fb3-81f48d6775f5" width = "440" height = "340">
 
 
