@@ -5,7 +5,7 @@
 4. [Before Running](#before-running)
 
 
-# 🧑Intro
+# 🖐️Intro
 Here I talk about everything in the things that I know about "Ktor", I hope in this.
 
 
