@@ -2,7 +2,7 @@
 1. [Intro](#intro)
 2. [Screenshots](#screenshots)
 3. [Build With](#build-with)
-4. [Before Running](#before-running)
+4. [Before Running Ktor](#before-running-ktor-with-database)
 
 
 # 🖐️Intro
@@ -131,8 +131,39 @@ Here I talk about everything in the things that I know about "Ktor", I hope in t
 
 
 
-# 🤌Before running
+# 🤌Before running ktor with database
 
-   ### Android
-To run the application on android device/emulator:  
- - open project in Android Studio and run imported android run configuration
+   ### (1)
+<img src = "" width = "1380" height = "650">
+
+   ### (2)
+<img src = "" width = "1380" height = "650">
+
+   ### (3)
+<img src = "" width = "1380" height = "650">
+
+   ### (4)
+<img src = "" width = "1380" height = "650">
+
+   ### (5)
+<img src = "" width = "1380" height = "650">
+
+   ### (6)
+<img src = "" width = "1380" height = "650">
+
+   ### (7)
+<img src = "" width = "1380" height = "650">
+
+   ### (8)
+<img src = "" width = "1380" height = "650">
+
+   ### (9)
+<img src = "" width = "1380" height = "650">
+
+   ### (10)
+<img src = "" width = "1380" height = "650">
+
+   ### (11)
+<img src = "" width = "1380" height = "650">
+
+
