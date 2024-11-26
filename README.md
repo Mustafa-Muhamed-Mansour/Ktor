@@ -11,9 +11,6 @@ Here I talk about everything in the things that I know about "Ktor", I hope in t
 
 # 📸Screenshots
 
-## without install routing
-<img src = "https://github.com/user-attachments/assets/0d0caccb-4859-428c-8c9f-fc788f5d5993" width = "1300" height = "700">
-
 ## with install routing
 <img src = "https://github.com/user-attachments/assets/3f2d3cd3-3dba-4735-9813-27ba15f6dbc2" width = "1350" height = "740">
 
