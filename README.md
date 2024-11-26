@@ -2,7 +2,7 @@
 1. [Intro](#intro)
 2. [Screenshots](#screenshots)
 3. [Build With](#build-with)
-4. [Before Running Ktor](#before-running-ktor-with-database)
+4. [Before Running Ktor With Database](#before-running-ktor-with-database)
 
 
 # 🖐️Intro
